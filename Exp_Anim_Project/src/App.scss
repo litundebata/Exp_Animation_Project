@@ -21,9 +21,9 @@
         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
         view-timeline-name: --card;
-        view-timeline-axis: block;
+        view-timeline-axis: x;
 
-        animation: linear reveal both;
+        animation: linear revealX both;
         animation-timeline: --card;
 
         animation-range: entry 20% cover 40%;
