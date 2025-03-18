@@ -18,6 +18,9 @@ function App() {
         </div>
       </div>
 
+    <button className='btn'>Button 1</button>
+    <button className='btn'>Button 2</button>
+    <button className='btn'>Button 3</button>
     
 
       <div className="container">
