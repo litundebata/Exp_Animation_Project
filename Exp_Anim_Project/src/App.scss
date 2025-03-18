@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    // border: 2px solid red;
+    margin-top: 1000px;
+    margin-bottom: 1000px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+        view-timeline-name: --card;
+        view-timeline-axis: block;
+
+        animation: linear reveal both;
+        animation-timeline: --card;
+
+        animation-range: entry 20% cover 40%;
+
+        // .card-img {}
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            button{
+                background-color: rgb(44, 44, 44);
+                color: white;
+                height: 40px;
+                width: 100px;
+                border: none;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0.2;
+        transform: scale(0.2);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes revealX {
+    from {
+        opacity: 0.2;
+        transform: scale(0.2);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
