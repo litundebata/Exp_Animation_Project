@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.text-with-some-images{
+    display: flex;
+    border: 2px solid slateblue;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
 .container {
     // border: 2px solid red;
     margin-top: 1000px;

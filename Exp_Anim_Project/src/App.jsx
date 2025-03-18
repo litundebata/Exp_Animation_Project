@@ -7,6 +7,17 @@ function App() {
 
   return (
     <>
+
+      <div className="text-with-some-images">
+        <div className="text">
+          <h1>Hi, This is Me</h1>
+          <p>Welcome to this page</p>
+        </div>
+        <div className="image">
+          <img src={cappuccino} alt="cappuccino" />
+        </div>
+      </div>
+
       <div className="container">
         <div className="card">
           <div className="card-img">
