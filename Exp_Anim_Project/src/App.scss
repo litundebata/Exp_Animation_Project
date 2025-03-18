@@ -3,6 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.text-with-some-images{
+    display: flex;
+    border: 2px solid slateblue;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    width: fit-content;
+    gap: 40px;
+
+    .image{
+        
+        img{
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+    }
+}
 .container {
     // border: 2px solid red;
     margin-top: 700px;
