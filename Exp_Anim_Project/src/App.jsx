@@ -66,7 +66,7 @@ function App() {
             <button>Order Now</button>
           </div>
         </div>
-        
+
       </div>
     </>
   )
